@@ -1,0 +1,22 @@
+
+ALGORITMO VerificarVotacao
+VAR
+    idade: INTEIRO
+    nome: TEXTO
+
+INICIO
+    // 1. Mensagem inicial e leitura de dados
+    ESCREVA("Digite o seu email: ")
+    LEIA(email)
+    
+    ESCREVA("Digite a sua senha: ")
+    LEIA(senha)
+    
+    // 2. Estrutura condicional (Tomada de decisão)
+    SE (senha >= 12345) ENTAO
+        ESCREVA("Senha correta, acesso liberado.")
+    SENAO
+        ESCREVA("Conta bloqueada por excesso de tentativas incorretas.")
+    FIM_SE
+
+FIM_ALGORITMO
